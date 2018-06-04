@@ -1,0 +1,15 @@
+{
+  "name": "FelixRupp/MyFitnessPalExportConverter",
+  "description": "Convert your MyFitnessPal Export files for better usage for static purposes",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Felix Rupp",
+      "email": "kontakt@felixrupp.com"
+    }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "~1.2"
+  }
+}
