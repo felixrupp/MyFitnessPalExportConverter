@@ -67,8 +67,7 @@ class MFPBasicConverter
 
                         $interval = $dateTimeObject->diff($lastDateTimeObject);
                         $intervalInt = intval($interval->d);
-
-
+                        
                         for ($i = 1; $i < $intervalInt; $i++) {
 
                             $data[$rowIndex]['date'] = '';
@@ -79,7 +78,6 @@ class MFPBasicConverter
 
                             $rowIndex++;
                         }
-
                     }
 
                     $data[$rowIndex]['date'] = $dateTimeObject->format("d.m.y");
