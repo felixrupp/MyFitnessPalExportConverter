@@ -8,7 +8,7 @@
 
 <h1>MyFitnessPal Konverter für Nährwertexport-Datei</h1>
 
-<p>Bitte lade nur die Datei mit dem Namen „Nährwerte-Übersicht-….csv“ hoch. Andere Dateien werden nicht unterstützt.</p>
+<p>Bitte lade  entweder die Datei mit dem Namen „Nährwerte-Übersicht-….csv“ oder die Datei „Ernährungsbericht für … (Druckversion).html“ hoch. Andere Dateien werden nicht unterstützt.</p>
 
 <form action="convert.php" method="post" enctype="multipart/form-data">
 

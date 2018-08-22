@@ -3,9 +3,9 @@
 namespace FelixRupp\MyFitnessPalExportConverter;
 
 require_once "vendor/autoload.php";
-require_once "src/Utility/MFPConverter.php";
+require_once "src/Utility/MFPProConverter.php";
 
-use FelixRupp\MyFitnessPalExportConverter\Utility\MFPConverter;
+use FelixRupp\MyFitnessPalExportConverter\Utility\MFPProConverter;
 
 /**
  * Main File
@@ -47,9 +47,9 @@ Access this help with --help, -help, -h oder -?
 
     echo "\nProcess file: " . $file . "\n\n";
 
-    $mfpConverter = new MFPConverter();
+    $mFPProConverter = new MFPProConverter();
 
-    $result = $mfpConverter->convert($file);
+    $result = $mFPProConverter->convert($file);
 
     if($result) {
 

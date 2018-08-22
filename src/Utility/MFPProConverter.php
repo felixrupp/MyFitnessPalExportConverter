@@ -12,7 +12,7 @@ use PhpOffice\PhpSpreadsheet\Exception;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-class MFPConverter
+class MFPProConverter
 {
 
     public function convert($fileName, $directDownload = FALSE)
