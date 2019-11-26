@@ -1,5 +1,5 @@
 {
-  "name": "FelixRupp/MyFitnessPalExportConverter",
+  "name": "felixrupp/my-fitness-pal-export-converter",
   "description": "Convert your MyFitnessPal Export files for better usage for static purposes",
   "minimum-stability": "stable",
   "license": "proprietary",
