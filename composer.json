@@ -11,5 +11,10 @@
   ],
   "require": {
     "phpoffice/phpspreadsheet": "~1.2"
-  }
+  },
+  "autoload": {
+    "psr-4": {
+        "FelixRupp\\MyFitnessPalExportConverter\\": "src"
+    }
+}
 }

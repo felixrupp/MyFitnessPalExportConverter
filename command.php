@@ -3,7 +3,6 @@
 namespace FelixRupp\MyFitnessPalExportConverter;
 
 require_once "vendor/autoload.php";
-require_once "src/Utility/MFPProConverter.php";
 
 use FelixRupp\MyFitnessPalExportConverter\Utility\MFPProConverter;
 
@@ -17,20 +16,14 @@ use FelixRupp\MyFitnessPalExportConverter\Utility\MFPProConverter;
 if (($argc != 2) || (is_array($argv) && in_array($argv[1], array('--help', '-help', '-h', '-?')))) {
 ?>
 
-Create comskip .plist-file and convert it to Enigma2 .cuts file.
+Convert MyFitnessPal Pro exported .csv files to Excel
 
-Usage: <?php echo $argv[0]; ?> <mpeg2_ts_file> (<mode>)
+Usage: <?php echo $argv[0]; ?> <MyFitnessPalProExport.csv>
 
 Access this help with --help, -help, -h oder -?
 
-<mpeg2_ts_file> must be the path to a .ts file
+<MyFitnessPalProExport.csv> must be the path to a .csv file
 
-(<mode>) (optional) define the mode of operation.
-    'both':     default, which executes comskip
-                and converts the output file to .cuts.
-    'comskip':  only execute comskip.
-    'convert':  only convert the comskip output to .cuts
-                (you need to run comskip beforehand).
 
 <?php
 } else {
